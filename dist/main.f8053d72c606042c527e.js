@@ -110,7 +110,8 @@ webpackJsonp([0],[
 	});
 	exports.default = getBaseUrl;
 	function getBaseUrl() {
-	    return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : '/';
+	    return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : 'https://frozen-dusk-35746.herokuapp.com/';
+	    // return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3000/' : '/';
 	}
 	
 	function getQueryStringParameterByName(name, url) {
@@ -125,4 +126,4 @@ webpackJsonp([0],[
 
 /***/ }
 ]);
-//# sourceMappingURL=main.1a7c6a40d1038b8ddc2b.js.map
+//# sourceMappingURL=main.f8053d72c606042c527e.js.map
